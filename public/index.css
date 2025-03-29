@@ -1,0 +1,130 @@
+@import url("./menu.css");
+:root{
+    ---cor_principal:#026E81;
+    --cor_secundary: #f4f9fc;
+    --cor_fonte: #2e2c2c;
+    --cor_botao:#FF9933;
+    --font-size-secundy-p: 15px;
+    --font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    --font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+
+
+body{
+    border: 0;
+    padding: 0;
+    margin: 0 56px;
+    background-color:var(--cor_secundary);
+    font-family: var(font-family);
+    font-size: var(--font-size-secundy-p);
+    box-sizing: border-box;
+    color: var(--cor_fonte);
+
+}
+
+.container_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:1em 3em;
+    
+
+}
+.menu-drop{
+    font-size:17px;
+    transition: 0.1s ease-in;
+    cursor: pointer;
+    font-weight: 700;
+    color: var(--cor_fonte);
+}
+.menu-drop:hover{
+    padding: 3px;
+    font-size: 14px;
+}
+.menu_logo{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+/* paleta de cores Bright Blue Dark Teal Aqua Orange
+ */
+/* Area main */
+.container_main{
+    box-sizing: border-box;
+    padding:4em 5em;
+   
+   
+ }
+ .txt-h1{
+    display: flex;
+    align-items: center;
+    padding:2em 0;
+
+ }
+ .section-infor{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ }
+ .txt-h1 span{
+    font-size: 4em;
+    word-wrap: break-word;
+    font-family:sans-serif;
+    white-space: normal;
+ }
+
+ .txt-h1 small{
+    font-size: var(--font-style);
+    word-wrap: break-word;
+    font-family:sans-serif;
+    white-space: normal;
+    border-width:0;
+    padding-top: 1em;
+ }
+ .txt-h2{
+    display: flex;
+    padding:5em 0;
+
+
+ }
+ .txt-h3{
+    display: flex;
+    align-items: center;
+    padding:5em 0;
+
+ }
+ .span-txt{
+    font-size: 4em;
+    word-wrap: break-word;
+    font-family:sans-serif;
+    white-space: normal;
+    font-weight: 600;
+ }
+.small-txt{
+    margin-top: 2em;
+    font-size: 1.2em;
+    font-family:var(--font-family);
+    word-wrap: break-word;
+    font-family:sans-serif;
+    white-space: normal;
+    margin-bottom:3em;
+}
+button{
+    width: 30%;
+    padding: 1em 0;
+    cursor: pointer;
+    transition: 0.5s all;
+    background-color: var(---cor_principal);
+    border-radius:0.8em;
+    border: 0;
+
+ 
+}
+button:hover{
+    color: var(--cor_secundary);
+}
+footer{
+    text-align: center;
+}
