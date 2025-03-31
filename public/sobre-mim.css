@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.do-main{
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 125px;
+
+
+}
+h1{
+    padding: 0;
+    margin: 0;
+    font-size:30px;
+}
+section{
+    padding: 10px 0;
+}
+.p-txt{
+    font-size: 20px;
+    font-family: var(--font-family);
+    word-wrap: break-word;
+    white-space: normal;
+    padding: 5px 0;
+}

@@ -4,9 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../public/index.css" />
+    <link rel="stylesheet" href="../public/sobre-mim.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 <body>
-    <h1>Ola seja bem-vindo</h1>
+    
+    <header class="container_int" id="header">
+        <section class="container_header">
+            <div class="menu_logo">
+                <img src="../public/pie-chart.png" alt="logo" class="logo-img">
+                <p>|</p>
+                <span onclick="exibeMenu()" class="menu-drop">Menu</span>
+            </div>
+            <div>
+                Em desenvolvimetnto
+            </div>
+
+        </section>
+    </header>
+    <aside class="menu-dropdown" id="menu-dropdown"  >
+        <section   id="uls-header">
+            <ul class="menu" id="ul" onclick="fechaMenu()">
+            </ul>
+            <div class="h1-titulo">
+                <small>Desenvolvido por Elivandro</small>
+            </div>
+        </section>
+    </aside>
+   <div class="do-main" id="mains">
+     <h1>Sobre min</h1>
+     <section>
+        <p class="p-txt">Sou um profissional da área de Tecnologia da Informação, atuando como técnico em informática no Grupo Mateus, onde realizo análise e manutenção de redes de computadores, suporte técnico ao usuário e manutenção de equipamentos. Atualmente, curso Engenharia de Software, aprofundando meus conhecimentos em desenvolvimento de sistemas, infraestrutura de TI e boas práticas de engenharia de software.</p>
+
+            <p class="p-txt">  Possuo mais de três anos de experiência em desenvolvimento de software, com foco em Java (Spring Boot, Hibernate) e JavaScript (Node.js, React, Angular). Tenho expertise em bancos de dados relacionais (MySQL, PostgreSQL, MariaDB) e NoSQL (MongoDB), além de experiência com Docker, controle de versão com Git e integração de APIs.</p>
+            
+            <p class="p-txt">Meu objetivo é desenvolver soluções tecnológicas inovadoras e escaláveis, aplicando boas práticas de engenharia de software para otimização de processos e melhoria da experiência do usuário. Estou sempre em busca de aprimoramento e atualmente expandindo meus conhecimentos em desenvolvimento mobile com Kotlin, além de linguagens como C e C++.</p>
+            
+            <p class="p-txt"> Com uma abordagem analítica e foco na excelência, busco contribuir ativamente para projetos que demandam alta qualidade, eficiência e inovação tecnológica..</p>
+            <small><Strong>Autor: </Strong>Elivandro Azevedo Lopes</small>
+     </section>
+     <div><a href="./home.html">Home</a></div>
+   </div>
+   <div>
+   </div>
+   <script type="text/javascript" src="./index.js"></script>
+
 </body>
 
 </html>
